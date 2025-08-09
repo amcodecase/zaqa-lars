@@ -95,8 +95,10 @@ function handleSignIn() {
             $_SESSION['user_category'] = $user['category'];
             $_SESSION['user_role'] = strtolower($user['role']);
 
-            // Redirect to appropriate portal
-            $redirectUrl = "portal/accounts/{$user['category']}/" . strtolower($user['role']) . "/index.php";
+            // Redirect to appropriate portal - Convert both category and role to lowercase
+            $categoryLower = strtolower($user['category']);
+            $roleLower = strtolower($user['role']);
+            $redirectUrl = "portal/accounts/{$categoryLower}/{$roleLower}/index.php";
             header("Location: $redirectUrl");
             exit;
 
