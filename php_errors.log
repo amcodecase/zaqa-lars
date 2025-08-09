@@ -1,0 +1,263 @@
+[07-Aug-2025 14:58:06 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php on line 85
+[07-Aug-2025 14:58:06 UTC] PHP Stack trace:
+[07-Aug-2025 14:58:06 UTC] PHP   1. {main}() C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:0
+[07-Aug-2025 14:58:06 UTC] PHP   2. searchAllRecords($pdo = class PDO {  }, $searchType = 'name', $searchValue = 'kalonde', $limit = 25, $tables = 'teveta_data,he_data,ecz_data') C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:36
+[07-Aug-2025 14:58:15 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php on line 85
+[07-Aug-2025 14:58:15 UTC] PHP Stack trace:
+[07-Aug-2025 14:58:15 UTC] PHP   1. {main}() C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:0
+[07-Aug-2025 14:58:15 UTC] PHP   2. searchAllRecords($pdo = class PDO {  }, $searchType = 'name', $searchValue = 'h', $limit = 25, $tables = 'teveta_data,he_data,ecz_data') C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:36
+[07-Aug-2025 14:58:24 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php on line 85
+[07-Aug-2025 14:58:24 UTC] PHP Stack trace:
+[07-Aug-2025 14:58:24 UTC] PHP   1. {main}() C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:0
+[07-Aug-2025 14:58:24 UTC] PHP   2. searchAllRecords($pdo = class PDO {  }, $searchType = 'name', $searchValue = 'h', $limit = 25, $tables = 'teveta_data') C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:36
+[07-Aug-2025 14:58:33 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php on line 85
+[07-Aug-2025 14:58:33 UTC] PHP Stack trace:
+[07-Aug-2025 14:58:33 UTC] PHP   1. {main}() C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:0
+[07-Aug-2025 14:58:33 UTC] PHP   2. searchAllRecords($pdo = class PDO {  }, $searchType = 'name', $searchValue = '3', $limit = 25, $tables = 'teveta_data') C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:36
+[07-Aug-2025 14:58:38 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php on line 85
+[07-Aug-2025 14:58:38 UTC] PHP Stack trace:
+[07-Aug-2025 14:58:38 UTC] PHP   1. {main}() C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:0
+[07-Aug-2025 14:58:38 UTC] PHP   2. searchAllRecords($pdo = class PDO {  }, $searchType = 'candidate_id', $searchValue = '3', $limit = 25, $tables = 'teveta_data') C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:36
+[07-Aug-2025 15:00:29 UTC] Search request - Type: name, Value: h, Tables: "teveta_data,he_data,ecz_data"
+[07-Aug-2025 15:00:29 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php on line 94
+[07-Aug-2025 15:00:29 UTC] PHP Stack trace:
+[07-Aug-2025 15:00:29 UTC] PHP   1. {main}() C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:0
+[07-Aug-2025 15:00:29 UTC] PHP   2. searchAllRecords($pdo = class PDO {  }, $searchType = 'name', $searchValue = 'h', $limit = 25, $tables = 'teveta_data,he_data,ecz_data') C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:39
+[07-Aug-2025 15:00:29 UTC] Total records found: 0
+[07-Aug-2025 15:00:35 UTC] Search request - Type: name, Value: a, Tables: "teveta_data,he_data,ecz_data"
+[07-Aug-2025 15:00:35 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php on line 94
+[07-Aug-2025 15:00:35 UTC] PHP Stack trace:
+[07-Aug-2025 15:00:35 UTC] PHP   1. {main}() C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:0
+[07-Aug-2025 15:00:35 UTC] PHP   2. searchAllRecords($pdo = class PDO {  }, $searchType = 'name', $searchValue = 'a', $limit = 25, $tables = 'teveta_data,he_data,ecz_data') C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:39
+[07-Aug-2025 15:00:35 UTC] Total records found: 0
+[07-Aug-2025 15:00:44 UTC] Search request - Type: name, Value: a, Tables: "teveta_data"
+[07-Aug-2025 15:00:45 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php on line 94
+[07-Aug-2025 15:00:45 UTC] PHP Stack trace:
+[07-Aug-2025 15:00:45 UTC] PHP   1. {main}() C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:0
+[07-Aug-2025 15:00:45 UTC] PHP   2. searchAllRecords($pdo = class PDO {  }, $searchType = 'name', $searchValue = 'a', $limit = 25, $tables = 'teveta_data') C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:39
+[07-Aug-2025 15:00:45 UTC] Total records found: 0
+[07-Aug-2025 15:01:52 UTC] Search request - Type: name, Value: hi, Tables: "teveta_data,he_data,ecz_data"
+[07-Aug-2025 15:01:52 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php on line 94
+[07-Aug-2025 15:01:52 UTC] PHP Stack trace:
+[07-Aug-2025 15:01:52 UTC] PHP   1. {main}() C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:0
+[07-Aug-2025 15:01:52 UTC] PHP   2. searchAllRecords($pdo = class PDO {  }, $searchType = 'name', $searchValue = 'hi', $limit = 100, $tables = 'teveta_data,he_data,ecz_data') C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:39
+[07-Aug-2025 15:01:52 UTC] Total records found: 0
+[07-Aug-2025 15:04:37 UTC] Search request - Type: name, Value: u, Tables: "teveta_data,he_data,ecz_data"
+[07-Aug-2025 15:04:37 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php on line 94
+[07-Aug-2025 15:04:37 UTC] PHP Stack trace:
+[07-Aug-2025 15:04:37 UTC] PHP   1. {main}() C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:0
+[07-Aug-2025 15:04:37 UTC] PHP   2. searchAllRecords($pdo = class PDO {  }, $searchType = 'name', $searchValue = 'u', $limit = 25, $tables = 'teveta_data,he_data,ecz_data') C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:39
+[07-Aug-2025 15:04:37 UTC] Total records found: 0
+[07-Aug-2025 15:04:47 UTC] Search request - Type: name, Value: john, Tables: "teveta_data,he_data,ecz_data"
+[07-Aug-2025 15:04:47 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php on line 94
+[07-Aug-2025 15:04:47 UTC] PHP Stack trace:
+[07-Aug-2025 15:04:47 UTC] PHP   1. {main}() C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:0
+[07-Aug-2025 15:04:47 UTC] PHP   2. searchAllRecords($pdo = class PDO {  }, $searchType = 'name', $searchValue = 'john', $limit = 25, $tables = 'teveta_data,he_data,ecz_data') C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:39
+[07-Aug-2025 15:04:47 UTC] Total records found: 0
+[07-Aug-2025 15:05:49 UTC] Search request - Type: name, Value: ho, Tables: "teveta_data,he_data,ecz_data"
+[07-Aug-2025 15:05:49 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php on line 94
+[07-Aug-2025 15:05:49 UTC] PHP Stack trace:
+[07-Aug-2025 15:05:49 UTC] PHP   1. {main}() C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:0
+[07-Aug-2025 15:05:49 UTC] PHP   2. searchAllRecords($pdo = class PDO {  }, $searchType = 'name', $searchValue = 'ho', $limit = 25, $tables = 'teveta_data,he_data,ecz_data') C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:39
+[07-Aug-2025 15:05:49 UTC] Total records found: 0
+[07-Aug-2025 15:15:11 UTC] Testing database connection...
+[07-Aug-2025 15:15:11 UTC] Database connection successful
+[07-Aug-2025 15:15:11 UTC] Table he_data columns: id, student_id, certificate_no, last_name, first_name, other_names, gender, nrc_number, passport_no, programme_of_study, year_awarded, institution_id, added_by, created_at
+[07-Aug-2025 15:15:11 UTC] Table ecz_data columns: id, candidate_id, certificate_no, last_name, first_name, other_names, gender, nrc_number, passport_no, programme, level, year_awarded, institution_id, added_by, created_at
+[07-Aug-2025 15:15:11 UTC] Table teveta_data columns: id, candidate_id, certificate_no, last_name, first_name, other_names, gender, nrc_number, passport_no, programme, level, trade_code, year_awarded, institution_id, sub_institution, added_by, created_at
+[07-Aug-2025 15:15:11 UTC] Table he_data count: 1046
+[07-Aug-2025 15:15:11 UTC] Table ecz_data count: 0
+[07-Aug-2025 15:15:11 UTC] Table teveta_data count: 0
+[07-Aug-2025 15:15:11 UTC] Institutions count: 0
+[07-Aug-2025 15:15:11 UTC] Search stats: {"he_total":1046,"ecz_total":0,"teveta_total":0,"total_records":1046}
+[07-Aug-2025 15:15:23 UTC] Search request - Type: name, Value: j, Tables: "teveta_data,he_data,ecz_data"
+[07-Aug-2025 15:15:23 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php on line 94
+[07-Aug-2025 15:15:23 UTC] PHP Stack trace:
+[07-Aug-2025 15:15:23 UTC] PHP   1. {main}() C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:0
+[07-Aug-2025 15:15:23 UTC] PHP   2. searchAllRecords($pdo = class PDO {  }, $searchType = 'name', $searchValue = 'j', $limit = 25, $tables = 'teveta_data,he_data,ecz_data') C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:39
+[07-Aug-2025 15:15:23 UTC] Total records found: 0
+[07-Aug-2025 15:15:43 UTC] Search request - Type: name, Value: o, Tables: "teveta_data,he_data,ecz_data"
+[07-Aug-2025 15:15:43 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php on line 94
+[07-Aug-2025 15:15:43 UTC] PHP Stack trace:
+[07-Aug-2025 15:15:43 UTC] PHP   1. {main}() C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:0
+[07-Aug-2025 15:15:43 UTC] PHP   2. searchAllRecords($pdo = class PDO {  }, $searchType = 'name', $searchValue = 'o', $limit = 25, $tables = 'teveta_data,he_data,ecz_data') C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:39
+[07-Aug-2025 15:15:43 UTC] Total records found: 0
+[07-Aug-2025 15:15:51 UTC] Search request - Type: name, Value: o, Tables: "teveta_data,he_data,ecz_data"
+[07-Aug-2025 15:15:51 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php on line 94
+[07-Aug-2025 15:15:51 UTC] PHP Stack trace:
+[07-Aug-2025 15:15:51 UTC] PHP   1. {main}() C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:0
+[07-Aug-2025 15:15:51 UTC] PHP   2. searchAllRecords($pdo = class PDO {  }, $searchType = 'name', $searchValue = 'o', $limit = 25, $tables = 'teveta_data,he_data,ecz_data') C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:39
+[07-Aug-2025 15:15:51 UTC] Total records found: 0
+[07-Aug-2025 15:15:53 UTC] Search request - Type: name, Value: o, Tables: "teveta_data,he_data,ecz_data"
+[07-Aug-2025 15:15:53 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php on line 94
+[07-Aug-2025 15:15:53 UTC] PHP Stack trace:
+[07-Aug-2025 15:15:53 UTC] PHP   1. {main}() C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:0
+[07-Aug-2025 15:15:53 UTC] PHP   2. searchAllRecords($pdo = class PDO {  }, $searchType = 'name', $searchValue = 'o', $limit = 25, $tables = 'teveta_data,he_data,ecz_data') C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:39
+[07-Aug-2025 15:15:53 UTC] Total records found: 0
+[07-Aug-2025 15:16:02 UTC] Search request - Type: name, Value: o, Tables: "teveta_data,he_data,ecz_data"
+[07-Aug-2025 15:16:02 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php on line 94
+[07-Aug-2025 15:16:02 UTC] PHP Stack trace:
+[07-Aug-2025 15:16:02 UTC] PHP   1. {main}() C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:0
+[07-Aug-2025 15:16:02 UTC] PHP   2. searchAllRecords($pdo = class PDO {  }, $searchType = 'name', $searchValue = 'o', $limit = 25, $tables = 'teveta_data,he_data,ecz_data') C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:39
+[07-Aug-2025 15:16:02 UTC] Total records found: 0
+[07-Aug-2025 15:16:13 UTC] Search request - Type: name, Value: o, Tables: "teveta_data,he_data,ecz_data"
+[07-Aug-2025 15:16:13 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php on line 94
+[07-Aug-2025 15:16:13 UTC] PHP Stack trace:
+[07-Aug-2025 15:16:13 UTC] PHP   1. {main}() C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:0
+[07-Aug-2025 15:16:13 UTC] PHP   2. searchAllRecords($pdo = class PDO {  }, $searchType = 'name', $searchValue = 'o', $limit = 25, $tables = 'teveta_data,he_data,ecz_data') C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:39
+[07-Aug-2025 15:16:13 UTC] Total records found: 0
+[07-Aug-2025 15:16:21 UTC] Search request - Type: name, Value: o, Tables: "teveta_data,he_data,ecz_data"
+[07-Aug-2025 15:16:21 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php on line 94
+[07-Aug-2025 15:16:21 UTC] PHP Stack trace:
+[07-Aug-2025 15:16:21 UTC] PHP   1. {main}() C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:0
+[07-Aug-2025 15:16:21 UTC] PHP   2. searchAllRecords($pdo = class PDO {  }, $searchType = 'name', $searchValue = 'o', $limit = 25, $tables = 'teveta_data,he_data,ecz_data') C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:39
+[07-Aug-2025 15:16:21 UTC] Total records found: 0
+[07-Aug-2025 15:16:28 UTC] Search request - Type: name, Value: o, Tables: "teveta_data,he_data,ecz_data"
+[07-Aug-2025 15:16:28 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php on line 94
+[07-Aug-2025 15:16:28 UTC] PHP Stack trace:
+[07-Aug-2025 15:16:28 UTC] PHP   1. {main}() C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:0
+[07-Aug-2025 15:16:28 UTC] PHP   2. searchAllRecords($pdo = class PDO {  }, $searchType = 'name', $searchValue = 'o', $limit = 25, $tables = 'teveta_data,he_data,ecz_data') C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:39
+[07-Aug-2025 15:16:28 UTC] Total records found: 0
+[07-Aug-2025 15:16:59 UTC] Search request - Type: name, Value: o, Tables: "teveta_data,he_data,ecz_data"
+[07-Aug-2025 15:16:59 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php on line 94
+[07-Aug-2025 15:16:59 UTC] PHP Stack trace:
+[07-Aug-2025 15:16:59 UTC] PHP   1. {main}() C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:0
+[07-Aug-2025 15:16:59 UTC] PHP   2. searchAllRecords($pdo = class PDO {  }, $searchType = 'name', $searchValue = 'o', $limit = 25, $tables = 'teveta_data,he_data,ecz_data') C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:39
+[07-Aug-2025 15:16:59 UTC] Total records found: 0
+[07-Aug-2025 15:17:46 UTC] Search request - Type: name, Value: o, Tables: "teveta_data,he_data,ecz_data"
+[07-Aug-2025 15:17:46 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php on line 94
+[07-Aug-2025 15:17:46 UTC] PHP Stack trace:
+[07-Aug-2025 15:17:46 UTC] PHP   1. {main}() C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:0
+[07-Aug-2025 15:17:46 UTC] PHP   2. searchAllRecords($pdo = class PDO {  }, $searchType = 'name', $searchValue = 'o', $limit = 25, $tables = 'teveta_data,he_data,ecz_data') C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:39
+[07-Aug-2025 15:17:46 UTC] Total records found: 0
+[07-Aug-2025 15:18:15 UTC] Search request - Type: name, Value: o, Tables: "teveta_data,he_data,ecz_data"
+[07-Aug-2025 15:18:15 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php on line 94
+[07-Aug-2025 15:18:15 UTC] PHP Stack trace:
+[07-Aug-2025 15:18:15 UTC] PHP   1. {main}() C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:0
+[07-Aug-2025 15:18:15 UTC] PHP   2. searchAllRecords($pdo = class PDO {  }, $searchType = 'name', $searchValue = 'o', $limit = 25, $tables = 'teveta_data,he_data,ecz_data') C:\wamp64\www\lars\portal\accounts\zaqa\staff\manage_records.php:39
+[07-Aug-2025 15:18:15 UTC] Total records found: 0
+[07-Aug-2025 15:21:33 UTC] Testing database connection...
+[07-Aug-2025 15:21:33 UTC] Database connection successful
+[07-Aug-2025 15:21:33 UTC] Table he_data columns: id, student_id, certificate_no, last_name, first_name, other_names, gender, nrc_number, passport_no, programme_of_study, year_awarded, institution_id, added_by, created_at
+[07-Aug-2025 15:21:33 UTC] Table ecz_data columns: id, candidate_id, certificate_no, last_name, first_name, other_names, gender, nrc_number, passport_no, programme, level, year_awarded, institution_id, added_by, created_at
+[07-Aug-2025 15:21:33 UTC] Table teveta_data columns: id, candidate_id, certificate_no, last_name, first_name, other_names, gender, nrc_number, passport_no, programme, level, trade_code, year_awarded, institution_id, sub_institution, added_by, created_at
+[07-Aug-2025 15:21:33 UTC] Table he_data count: 1046
+[07-Aug-2025 15:21:33 UTC] Table ecz_data count: 0
+[07-Aug-2025 15:21:33 UTC] Table teveta_data count: 0
+[07-Aug-2025 15:21:33 UTC] Institutions count: 0
+[07-Aug-2025 15:21:33 UTC] Search stats: {"he_total":1046,"ecz_total":0,"teveta_total":0,"total_records":1046}
+[07-Aug-2025 15:21:57 UTC] Testing database connection...
+[07-Aug-2025 15:21:57 UTC] Database connection successful
+[07-Aug-2025 15:21:57 UTC] Table he_data columns: id, student_id, certificate_no, last_name, first_name, other_names, gender, nrc_number, passport_no, programme_of_study, year_awarded, institution_id, added_by, created_at
+[07-Aug-2025 15:21:57 UTC] Table ecz_data columns: id, candidate_id, certificate_no, last_name, first_name, other_names, gender, nrc_number, passport_no, programme, level, year_awarded, institution_id, added_by, created_at
+[07-Aug-2025 15:21:57 UTC] Table teveta_data columns: id, candidate_id, certificate_no, last_name, first_name, other_names, gender, nrc_number, passport_no, programme, level, trade_code, year_awarded, institution_id, sub_institution, added_by, created_at
+[07-Aug-2025 15:21:57 UTC] Table he_data count: 1046
+[07-Aug-2025 15:21:57 UTC] Table ecz_data count: 0
+[07-Aug-2025 15:21:57 UTC] Table teveta_data count: 0
+[07-Aug-2025 15:21:57 UTC] Institutions count: 0
+[07-Aug-2025 15:21:57 UTC] Search stats: {"he_total":1046,"ecz_total":0,"teveta_total":0,"total_records":1046}
+[07-Aug-2025 15:22:21 UTC] Testing database connection...
+[07-Aug-2025 15:22:21 UTC] Database connection successful
+[07-Aug-2025 15:22:21 UTC] Table he_data columns: id, student_id, certificate_no, last_name, first_name, other_names, gender, nrc_number, passport_no, programme_of_study, year_awarded, institution_id, added_by, created_at
+[07-Aug-2025 15:22:21 UTC] Table ecz_data columns: id, candidate_id, certificate_no, last_name, first_name, other_names, gender, nrc_number, passport_no, programme, level, year_awarded, institution_id, added_by, created_at
+[07-Aug-2025 15:22:21 UTC] Table teveta_data columns: id, candidate_id, certificate_no, last_name, first_name, other_names, gender, nrc_number, passport_no, programme, level, trade_code, year_awarded, institution_id, sub_institution, added_by, created_at
+[07-Aug-2025 15:22:21 UTC] Table he_data count: 1046
+[07-Aug-2025 15:22:21 UTC] Table ecz_data count: 0
+[07-Aug-2025 15:22:21 UTC] Table teveta_data count: 0
+[07-Aug-2025 15:22:21 UTC] Institutions count: 0
+[07-Aug-2025 15:22:21 UTC] Search stats: {"he_total":1046,"ecz_total":0,"teveta_total":0,"total_records":1046}
+[07-Aug-2025 15:38:47 UTC] Testing database connection...
+[07-Aug-2025 15:38:47 UTC] Database connection successful
+[07-Aug-2025 15:38:47 UTC] Table he_data columns: id, student_id, certificate_no, last_name, first_name, other_names, gender, nrc_number, passport_no, programme_of_study, year_awarded, institution_id, added_by, created_at
+[07-Aug-2025 15:38:47 UTC] Table ecz_data columns: id, candidate_id, certificate_no, last_name, first_name, other_names, gender, nrc_number, passport_no, programme, level, year_awarded, institution_id, added_by, created_at
+[07-Aug-2025 15:38:47 UTC] Table teveta_data columns: id, candidate_id, certificate_no, last_name, first_name, other_names, gender, nrc_number, passport_no, programme, level, trade_code, year_awarded, institution_id, sub_institution, added_by, created_at
+[07-Aug-2025 15:38:47 UTC] Table he_data count: 1046
+[07-Aug-2025 15:38:47 UTC] Table ecz_data count: 0
+[07-Aug-2025 15:38:47 UTC] Table teveta_data count: 0
+[07-Aug-2025 15:38:47 UTC] Institutions count: 0
+[07-Aug-2025 15:38:47 UTC] Search stats: {"he_total":1046,"ecz_total":0,"teveta_total":0,"total_records":1046}
+[07-Aug-2025 15:51:27 UTC] Testing database connection...
+[07-Aug-2025 15:51:27 UTC] Database connection successful
+[07-Aug-2025 15:51:27 UTC] Table he_data columns: id, student_id, certificate_no, last_name, first_name, other_names, gender, nrc_number, passport_no, programme_of_study, year_awarded, institution_id, added_by, created_at
+[07-Aug-2025 15:51:27 UTC] Table ecz_data columns: id, candidate_id, certificate_no, last_name, first_name, other_names, gender, nrc_number, passport_no, programme, level, year_awarded, institution_id, added_by, created_at
+[07-Aug-2025 15:51:27 UTC] Table teveta_data columns: id, candidate_id, certificate_no, last_name, first_name, other_names, gender, nrc_number, passport_no, programme, level, trade_code, year_awarded, institution_id, sub_institution, added_by, created_at
+[07-Aug-2025 15:51:27 UTC] Table he_data count: 1046
+[07-Aug-2025 15:51:27 UTC] Table ecz_data count: 0
+[07-Aug-2025 15:51:27 UTC] Table teveta_data count: 0
+[07-Aug-2025 15:51:27 UTC] Institutions count: 0
+[07-Aug-2025 15:51:27 UTC] Search stats: {"he_total":1046,"ecz_total":0,"teveta_total":0,"total_records":1046}
+[07-Aug-2025 15:51:36 UTC] Testing database connection...
+[07-Aug-2025 15:51:36 UTC] Database connection successful
+[07-Aug-2025 15:51:36 UTC] Table he_data columns: id, student_id, certificate_no, last_name, first_name, other_names, gender, nrc_number, passport_no, programme_of_study, year_awarded, institution_id, added_by, created_at
+[07-Aug-2025 15:51:36 UTC] Table ecz_data columns: id, candidate_id, certificate_no, last_name, first_name, other_names, gender, nrc_number, passport_no, programme, level, year_awarded, institution_id, added_by, created_at
+[07-Aug-2025 15:51:36 UTC] Table teveta_data columns: id, candidate_id, certificate_no, last_name, first_name, other_names, gender, nrc_number, passport_no, programme, level, trade_code, year_awarded, institution_id, sub_institution, added_by, created_at
+[07-Aug-2025 15:51:36 UTC] Table he_data count: 1046
+[07-Aug-2025 15:51:36 UTC] Table ecz_data count: 0
+[07-Aug-2025 15:51:36 UTC] Table teveta_data count: 0
+[07-Aug-2025 15:51:36 UTC] Institutions count: 0
+[07-Aug-2025 15:51:36 UTC] Search stats: {"he_total":1046,"ecz_total":0,"teveta_total":0,"total_records":1046}
+[07-Aug-2025 15:51:56 UTC] Testing database connection...
+[07-Aug-2025 15:51:56 UTC] Database connection successful
+[07-Aug-2025 15:51:56 UTC] Table he_data columns: id, student_id, certificate_no, last_name, first_name, other_names, gender, nrc_number, passport_no, programme_of_study, year_awarded, institution_id, added_by, created_at
+[07-Aug-2025 15:51:56 UTC] Table ecz_data columns: id, candidate_id, certificate_no, last_name, first_name, other_names, gender, nrc_number, passport_no, programme, level, year_awarded, institution_id, added_by, created_at
+[07-Aug-2025 15:51:56 UTC] Table teveta_data columns: id, candidate_id, certificate_no, last_name, first_name, other_names, gender, nrc_number, passport_no, programme, level, trade_code, year_awarded, institution_id, sub_institution, added_by, created_at
+[07-Aug-2025 15:51:56 UTC] Table he_data count: 1046
+[07-Aug-2025 15:51:56 UTC] Table ecz_data count: 0
+[07-Aug-2025 15:51:56 UTC] Table teveta_data count: 0
+[07-Aug-2025 15:51:56 UTC] Institutions count: 0
+[07-Aug-2025 15:51:56 UTC] Search stats: {"he_total":1046,"ecz_total":0,"teveta_total":0,"total_records":1046}
+[07-Aug-2025 15:52:28 UTC] Testing database connection...
+[07-Aug-2025 15:52:28 UTC] Database connection successful
+[07-Aug-2025 15:52:28 UTC] Table he_data columns: id, student_id, certificate_no, last_name, first_name, other_names, gender, nrc_number, passport_no, programme_of_study, year_awarded, institution_id, added_by, created_at
+[07-Aug-2025 15:52:28 UTC] Table ecz_data columns: id, candidate_id, certificate_no, last_name, first_name, other_names, gender, nrc_number, passport_no, programme, level, year_awarded, institution_id, added_by, created_at
+[07-Aug-2025 15:52:28 UTC] Table teveta_data columns: id, candidate_id, certificate_no, last_name, first_name, other_names, gender, nrc_number, passport_no, programme, level, trade_code, year_awarded, institution_id, sub_institution, added_by, created_at
+[07-Aug-2025 15:52:28 UTC] Table he_data count: 1046
+[07-Aug-2025 15:52:28 UTC] Table ecz_data count: 0
+[07-Aug-2025 15:52:28 UTC] Table teveta_data count: 0
+[07-Aug-2025 15:52:28 UTC] Institutions count: 0
+[07-Aug-2025 15:52:28 UTC] Search stats: {"he_total":1046,"ecz_total":0,"teveta_total":0,"total_records":1046}
+[08-Aug-2025 07:07:44 UTC] Table check error for institutions: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[08-Aug-2025 07:07:44 UTC] Table institutions does not exist
+[08-Aug-2025 07:07:44 UTC] Table check error for he_data: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[08-Aug-2025 07:07:44 UTC] Table check error for ecz_data: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[08-Aug-2025 07:07:44 UTC] Table check error for teveta_data: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[08-Aug-2025 07:12:21 UTC] Table check error for institutions: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[08-Aug-2025 07:12:21 UTC] Table institutions does not exist
+[08-Aug-2025 07:12:21 UTC] Table check error for he_data: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[08-Aug-2025 07:12:21 UTC] Table check error for ecz_data: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[08-Aug-2025 07:12:21 UTC] Table check error for teveta_data: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[08-Aug-2025 07:13:00 UTC] Table check error for institutions: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[08-Aug-2025 07:13:00 UTC] Table institutions does not exist
+[08-Aug-2025 07:13:00 UTC] Table check error for he_data: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[08-Aug-2025 07:13:00 UTC] Table check error for ecz_data: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[08-Aug-2025 07:13:00 UTC] Table check error for teveta_data: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[08-Aug-2025 07:13:47 UTC] Table check error for institutions: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[08-Aug-2025 07:13:47 UTC] Table institutions does not exist
+[08-Aug-2025 07:13:47 UTC] Table check error for he_data: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[08-Aug-2025 07:13:47 UTC] Table check error for ecz_data: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[08-Aug-2025 07:13:47 UTC] Table check error for teveta_data: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[08-Aug-2025 07:15:31 UTC] Table check error for institutions: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[08-Aug-2025 07:15:31 UTC] Table institutions does not exist
+[08-Aug-2025 07:15:31 UTC] Table check error for he_data: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[08-Aug-2025 07:15:31 UTC] Table check error for ecz_data: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[08-Aug-2025 07:15:31 UTC] Table check error for teveta_data: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[08-Aug-2025 07:16:21 UTC] Table check error for institutions: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[08-Aug-2025 07:16:21 UTC] Table institutions does not exist
+[08-Aug-2025 07:16:21 UTC] Table check error for he_data: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[08-Aug-2025 07:16:21 UTC] Table check error for ecz_data: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[08-Aug-2025 07:16:21 UTC] Table check error for teveta_data: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[08-Aug-2025 07:46:47 UTC] Table check error for institutions: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[08-Aug-2025 07:46:47 UTC] Table institutions does not exist
+[08-Aug-2025 07:46:47 UTC] Table check error for he_data: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[08-Aug-2025 07:46:47 UTC] Table check error for ecz_data: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[08-Aug-2025 07:46:47 UTC] Table check error for teveta_data: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[08-Aug-2025 08:00:16 UTC] Table check error for institutions: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[08-Aug-2025 08:00:16 UTC] Table institutions does not exist
+[08-Aug-2025 08:00:16 UTC] Table check error for he_data: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[08-Aug-2025 08:00:16 UTC] Table check error for ecz_data: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[08-Aug-2025 08:00:16 UTC] Table check error for teveta_data: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[08-Aug-2025 09:37:19 UTC] Table check error for institutions: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[08-Aug-2025 09:37:19 UTC] Table institutions does not exist
+[08-Aug-2025 09:37:19 UTC] Table check error for he_data: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[08-Aug-2025 09:37:19 UTC] Table check error for ecz_data: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[08-Aug-2025 09:37:19 UTC] Table check error for teveta_data: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1

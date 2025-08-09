@@ -1,0 +1,261 @@
+.help-container{
+    padding: var(--spacing-6);
+    max-width: var(--container-max-width);
+    margin: 0 auto;
+    /* Ensure content doesn't overlap sidebar */
+    margin-left: calc(280px + var(--spacing-6)); /* Sidebar width + padding */
+    width: calc(100% - 280px - var(--spacing-6)); /* Adjust width to account for sidebar */
+}
+/* Welcome Section */
+.welcome-section {
+    background-color: var(--color-background);
+    border: var(--border-width-sm) solid var(--color-border);
+    border-radius: var(--border-radius-md);
+    padding: var(--spacing-4);
+    margin-bottom: var(--spacing-4);
+    box-shadow: var(--shadow-md);
+}
+
+.welcome-section h1 {
+    font-size: var(--font-size-3xl);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text-primary);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-2);
+    margin-bottom: var(--spacing-2);
+}
+
+.welcome-section p {
+    font-size: var(--font-size-md);
+    color: var(--color-text-secondary);
+    line-height: var(--line-height-relaxed);
+}
+
+/* Statistics Grid */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--spacing-3);
+    margin-bottom: var(--spacing-4);
+}
+
+.stat-card {
+    background-color: var(--color-background);
+    border: var(--border-width-sm) solid var(--color-border);
+    border-radius: var(--border-radius-md);
+    padding: var(--spacing-3);
+    box-shadow: var(--shadow-sm);
+    text-align: center;
+    transition: transform var(--transition-duration-normal) var(--transition-timing);
+}
+
+.stat-card:hover {
+    transform: translateY(-2px);
+}
+
+.stat-card h3 {
+    font-size: var(--font-size-xl);
+    color: var(--color-text-primary);
+    margin-bottom: var(--spacing-2);
+}
+
+.stat-card p {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-1);
+}
+
+.stat-card.highlight {
+    border-left: var(--border-width-md) solid var(--color-primary);
+}
+
+/* Help Tabs */
+.help-tabs {
+    display: flex;
+    gap: var(--spacing-3);
+    margin-bottom: var(--spacing-3);
+    border-bottom: var(--border-width-sm) solid var(--color-border);
+}
+
+.tab-button {
+    padding: var(--spacing-2) var(--spacing-4);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+    color: var(--color-text-secondary);
+    background: none;
+    border: none;
+    border-bottom: var(--border-width-md) solid transparent;
+    cursor: pointer;
+    transition: all var(--transition-duration-normal) var(--transition-timing);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-1);
+}
+
+.tab-button:hover {
+    color: var(--color-text-primary);
+    border-bottom-color: var(--color-primary-light);
+}
+
+.tab-button.active {
+    color: var(--color-primary);
+    border-bottom-color: var(--color-primary);
+}
+
+/* Dashboard Card */
+.dashboard-card {
+    background-color: var(--color-background);
+    border: var(--border-width-sm) solid var(--color-border);
+    border-radius: var(--border-radius-md);
+    padding: var(--spacing-4);
+    margin-bottom: var(--spacing-4);
+    box-shadow: var(--shadow-md);
+}
+
+/* Help Section */
+.help-section {
+    display: none;
+}
+
+.help-section.active {
+    display: block;
+}
+
+.help-section h3 {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text-primary);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-2);
+    margin-bottom: var(--spacing-3);
+}
+
+/* Help Content */
+.help-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-3);
+}
+
+/* Help Item */
+.help-item {
+    background-color: var(--color-surface);
+    border: var(--border-width-sm) solid var(--color-border);
+    border-radius: var(--border-radius-sm);
+    padding: var(--spacing-3);
+    box-shadow: var(--shadow-sm);
+}
+
+/* Help Header */
+.help-header {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-1);
+    margin-bottom: var(--spacing-2);
+}
+
+.help-header h4 {
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text-primary);
+}
+
+/* Help Text */
+.help-text {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+    line-height: var(--line-height-relaxed);
+}
+
+.help-text strong {
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text-primary);
+}
+
+.help-text em {
+    font-style: italic;
+    color: var(--color-text-muted);
+}
+
+/* Alert Container */
+#alertContainer {
+    margin-bottom: var(--spacing-3);
+}
+
+/* Alerts */
+.alert {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-2);
+    padding: var(--spacing-3);
+    border-radius: var(--border-radius-sm);
+    margin-bottom: var(--spacing-3);
+}
+
+.alert-error {
+    background-color: var(--color-error-light);
+    color: var(--color-error-dark);
+}
+
+.alert-warning {
+    background-color: var(--color-warning-light);
+    color: var(--color-warning-dark);
+}
+
+.alert-info {
+    background-color: var(--color-info-light);
+    color: var(--color-info-dark);
+}
+
+/* Responsive Design */
+@media (max-width: var(--breakpoint-md)) {
+    .dashboard-content {
+        margin-left: 0;
+        width: calc(100% - var(--spacing-8));
+        padding: var(--spacing-4);
+    }
+
+    .welcome-section {
+        padding: var(--spacing-3);
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .help-tabs {
+        flex-wrap: wrap;
+    }
+
+    .tab-button {
+        flex: 1;
+        text-align: center;
+    }
+}
+
+@media (max-width: var(--breakpoint-sm)) {
+    .dashboard-content {
+        padding: var(--spacing-3);
+    }
+
+    .welcome-section h1 {
+        font-size: var(--font-size-2xl);
+    }
+
+    .help-section h3 {
+        font-size: var(--font-size-lg);
+    }
+
+    .help-header h4 {
+        font-size: var(--font-size-sm);
+    }
+
+    .help-text {
+        font-size: var(--font-size-xs);
+    }
+}
